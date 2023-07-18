@@ -1,0 +1,21 @@
+{
+  "name": "quadratic-core",
+  "collaborators": [
+    "Andrew Farkas <andrew.farkas@quadratic.to>"
+  ],
+  "description": "Infinite data grid with Python, JavaScript, and SQL built-in",
+  "version": "0.1.14",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quadratichq/quadratic"
+  },
+  "files": [
+    "quadratic_core_bg.wasm",
+    "quadratic_core.js",
+    "quadratic_core.d.ts"
+  ],
+  "module": "quadratic_core.js",
+  "types": "quadratic_core.d.ts",
+  "sideEffects": false
+}
